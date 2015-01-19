@@ -1,0 +1,19 @@
+add(E): boolean
+addAll(Collection<? extends E>): boolean
+clear(): void
+contains(Object): boolean
+containsAll(Collection<?>): boolean
+equals(Object): boolean
+hashCode(): int
+isEmpty(): boolean
+iterator(): Iterator<E>
+parallelStream(): Stream<E>
+remove(Object): boolean
+removeAll(Collection<?>): boolean
+removeIf(Predicate<? super E>): boolean
+retainAll(Collection<?>): boolean
+size(): int
+spliterator(): Spliterator<E>
+stream(): Stream<E>
+toArray(): Object[]
+toArray(T[]): T[]
